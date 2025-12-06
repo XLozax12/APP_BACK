@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/pruebas")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PruebaController {
 
 	private final PruebaService service;
